@@ -14,7 +14,7 @@ export default class AttaquesList extends Component {
                 { this.state.attaques ? (
                     <div>
                         <table className="table table-secondary table-striped">
-                            <thead class="thead-dark">
+                            <thead className="thead-dark">
                                 <tr>
                                     <th scope="col">Niveau</th>
                                     <th scope="col">Nom</th>
@@ -25,7 +25,7 @@ export default class AttaquesList extends Component {
                             </thead>
                             <tbody>
                                 { this.state.attaques.map((attaque) => (
-                                    <tr>
+                                    <tr key={attaque.nom}>
                                         <th scope="row">{ attaque.niveau }</th>
                                         <td>{ attaque.nom }</td>
                                         <td>{ attaque.puissance }</td>

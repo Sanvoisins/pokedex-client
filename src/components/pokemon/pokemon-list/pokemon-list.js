@@ -26,10 +26,7 @@ export default class PokemonList extends Component {
     }
     async changeImage() {
         if(this.state.imageType === 'icon') {
-
-        console.log('toto')
             this.setState({imageType: 'other'})
-            console.log('toto2')
         } else {
             this.setState({imageType: 'icon'})
         }

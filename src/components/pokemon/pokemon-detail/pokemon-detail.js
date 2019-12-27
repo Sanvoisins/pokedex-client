@@ -22,7 +22,6 @@ export default class PokemonDetail extends Component {
             Math.round((pokemon.captureval*100)/255)
             pokemon.captureval = Math.round((pokemon.captureval*100)/255)
             this.setState({pokemon: pokemon})
-            console.log(this.state.pokemon)
         })
     }
     loadImage(pokemonNumber) {
@@ -56,7 +55,7 @@ export default class PokemonDetail extends Component {
                                     <span className="ml-1">Chance de capture : { pokemon.captureval } %</span>
                                 </div>
                                 <div className="row pl-3 mt-2">
-                                    <span>Talent : { pokemon.capspe1 } / {pokemon.capspe2 ? (<psan>{pokemon.capspe2}</psan>) : (<span></span>)} </span>
+                                    <span>Talent : { pokemon.capspe1 } / {pokemon.capspe2 ? (<span>{pokemon.capspe2}</span>) : (<span></span>)} </span>
                                 </div>
                                 <div className="row pl-3 mt-2">
                                     <span>Expérience requise pour arrivée au niveau 100 : { pokemon.expmax } xp</span>
