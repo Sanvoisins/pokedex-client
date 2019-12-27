@@ -1,0 +1,92 @@
+.numberPokemon {
+    font-size: 1em;
+}
+.Combat {
+    background-color: #d6671d;
+}
+.Dragon {
+    background: linear-gradient(180deg, #53a6d0 50%, #F16E56 50%);
+    /* #53a6d0 */
+    /* #F16E56 */
+}
+.Eau {
+    background-color: #4393C5;
+    /* #4393C5 */
+}
+.Electrique {
+    background-color: #EED631;
+    /* #EED631 */
+}
+.Feu {
+    background-color: #FD7E1F;
+    /* #FD7E1F */
+}
+.Glace {
+    background-color: #50C5E7;
+    /* #50C5E7 */
+}
+.Insecte {
+    background-color: #73A03D;
+    /* #73A03D */
+}
+.Normal {
+    background-color: #A5ADB0;
+    /* #A5ADB0 */
+}
+.Plante {
+    background-color: #9CCD4F;
+    /* #9CCD4F */
+}
+.Poison {
+    background-color: #BB80CA;
+    /* #BB80CA */
+}
+.Psy {
+    background-color: #F366BA;
+    /* #F366BA */
+}
+.Roche {
+    background-color: #A48D1B;
+    /* #A48D1B */
+}
+.Sol {
+    background: linear-gradient(180deg, #F7DF3D 50%, #AD9A40 50%);
+}
+.Spectre {
+    background-color: #7C62A4;
+    /* #7C62A4 */
+}
+.Vol {
+    background: linear-gradient(180deg, #3AC8EF 50%, #BEBBBA 50%);
+    /* #3AC8EF */
+    /* #BEBBBA */
+}
+.stage {
+    display: flex;
+    height: 330px;
+    width: 100%;
+    background-image: url('https://images7.alphacoders.com/662/662102.png');
+    background-position: -500px -500px; 
+}
+.box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 200px;
+}
+.bounce-5:hover {
+    animation-name: bounce-5;
+    animation-timing-function: ease;
+}
+@keyframes bounce-5 {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-100px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    57%  { transform: scale(1,1)    translateY(-7px); }
+    64%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
+}

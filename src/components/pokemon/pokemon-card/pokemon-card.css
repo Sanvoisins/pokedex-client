@@ -1,3 +1,77 @@
 .card {
     width: 100%;
+    color: #7a7a7a;
+}
+.iconPokemon {
+    width: 100px;
+}
+.backIcon {
+    background-color: #7a7a7a;
+}
+.Link:hover {
+    text-decoration: none;
+}
+.card:hover {
+    box-shadow: 0 0 5px 1px;
+    color: #7a7a7a;
+}
+.Combat {
+    background-color: #d6671d;
+}
+.Dragon {
+    background: linear-gradient(180deg, #53a6d0 50%, #F16E56 50%);
+    /* #53a6d0 */
+    /* #F16E56 */
+}
+.Eau {
+    background-color: #4393C5;
+    /* #4393C5 */
+}
+.Electrique {
+    background-color: #EED631;
+    /* #EED631 */
+}
+.Feu {
+    background-color: #FD7E1F;
+    /* #FD7E1F */
+}
+.Glace {
+    background-color: #50C5E7;
+    /* #50C5E7 */
+}
+.Insecte {
+    background-color: #73A03D;
+    /* #73A03D */
+}
+.Normal {
+    background-color: #A5ADB0;
+    /* #A5ADB0 */
+}
+.Plante {
+    background-color: #9CCD4F;
+    /* #9CCD4F */
+}
+.Poison {
+    background-color: #BB80CA;
+    /* #BB80CA */
+}
+.Psy {
+    background-color: #F366BA;
+    /* #F366BA */
+}
+.Roche {
+    background-color: #A48D1B;
+    /* #A48D1B */
+}
+.Sol {
+    background: linear-gradient(180deg, #F7DF3D 50%, #AD9A40 50%);
+}
+.Spectre {
+    background-color: #7C62A4;
+    /* #7C62A4 */
+}
+.Vol {
+    background: linear-gradient(180deg, #3AC8EF 50%, #BEBBBA 50%);
+    /* #3AC8EF */
+    /* #BEBBBA */
 }
